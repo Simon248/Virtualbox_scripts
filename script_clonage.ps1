@@ -2,7 +2,7 @@
 
 param(
     [string]$nomOriginalVM,  # Nom de la VM originale à cloner
-    [int]$nombreDeClones     # Nombre de clones à créer
+    [int]$nombreDeClones,     # Nombre de clones à créer
     [string]$prefixeNomVM    # Préfixe pour le nom des VMs clonées
 )
 
